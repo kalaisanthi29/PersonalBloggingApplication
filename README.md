@@ -13,7 +13,7 @@ The application allows users to:
 
 The purpose of the project was to practice backend web development concepts such as Flask routing, CRUD operations, database integration, form handling, and template rendering.
 
----
+
 
 ## Features
 
@@ -26,7 +26,7 @@ The purpose of the project was to practice backend web development concepts such
 - SQLite database integration
 - SQL injection protection using parameterized queries
 
----
+
 
 ## Technologies Used
 
@@ -38,7 +38,7 @@ The purpose of the project was to practice backend web development concepts such
 - Jinja Templates
 - Git & GitHub
 
----
+
 
 ## Setup and Installation
 
@@ -66,7 +66,7 @@ pip install flask
 python app.py
 ```
 
----
+
 
 ## Running the Application Locally
 
@@ -76,7 +76,7 @@ After running the application, open the following link in a browser:
 http://127.0.0.1:5000
 ```
 
----
+
 
 ## Project Structure
 
@@ -114,7 +114,7 @@ conn.execute(
 
 This ensures that user input is safely handled before interacting with the database.
 
----
+
 
 ## AI-Assisted Tools
 
@@ -126,7 +126,7 @@ AI-assisted tools were used during development for:
 
 All code was reviewed, tested, and modified during development.
 
----
+
 
 ## Known Limitations
 
@@ -136,7 +136,7 @@ All code was reviewed, tested, and modified during development.
 - Comments cannot currently be edited or deleted
 - No search functionality
 
----
+
 
 ## Future Improvements
 
