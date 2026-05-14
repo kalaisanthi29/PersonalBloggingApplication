@@ -1,86 +1,53 @@
 # Personal Blogging Application
 
-## Project Description
+Here is the updated README:
 
-This project is a simple blogging web application built using Flask, SQLite, HTML, and CSS.
-
+Project Description
+This project is a simple blogging web application built using Flask, SQLite, HTML and CSS.
 The application allows users to:
-- Create blog posts
-- Read blog posts
-- Update blog posts
-- Delete blog posts
-- Add comments to posts
 
-The purpose of the project was to practice backend web development concepts such as Flask routing, CRUD operations, database integration, form handling, and template rendering.
+Create blog posts
+Read blog posts
+Update blog posts
+Delete blog posts
+Add comments to posts
 
+The purpose of the project was to practice backend web development concepts such as Flask routing, CRUD operations, database integration, form handling and template rendering.
 
+Technologies Used
 
-## Features
-
-- Create new blog posts
-- View all blog posts
-- View individual blog posts
-- Edit existing blog posts
-- Delete blog posts
-- Add comments to blog posts
-- SQLite database integration
-- SQL injection protection using parameterized queries
+Python
+Flask
+SQLite
+HTML
+CSS
+Jinja Templates
+Git and GitHub
 
 
+Setup and Installation
 
-## Technologies Used
+Clone the Repository
 
-- Python
-- Flask
-- SQLite
-- HTML
-- CSS
-- Jinja Templates
-- Git & GitHub
-
-
-
-## Setup and Installation
-
-### 1. Clone the Repository
-
-```bash
 git clone https://github.com/kalaisanthi29/PersonalBloggingApplication.git
-```
 
-### 2. Open the Project Folder
+Open the Project Folder
 
-```bash
 cd PersonalBloggingApplication
-```
 
-### 3. Install Flask
+Install Flask
 
-```bash
 pip install flask
-```
 
-### 4. Run the Application
+Run the Application
 
-```bash
 python app.py
-```
 
-
-
-## Running the Application Locally
-
+Running the Application Locally
 After running the application, open the following link in a browser:
-
-```text
 http://127.0.0.1:5000
-```
 
-
-
-## Project Structure
-
-```text
+Project Structure
 PersonalBloggingApplication/
 │
 ├── app.py
@@ -95,55 +62,33 @@ PersonalBloggingApplication/
 │   ├── create_post.html
 │   ├── edit_post.html
 │   └── post.html
-```
 
----
-
-## Security Measures Implemented
-
-The application uses parameterized SQL queries with `?` placeholders to help prevent SQL injection attacks.
-
+Security
+The application uses parameterised SQL queries with ? placeholders to help prevent SQL injection attacks.
 Example:
-
-```python
 conn.execute(
     "INSERT INTO posts (title, body) VALUES (?, ?)",
     (title, body)
 )
-```
 
-This ensures that user input is safely handled before interacting with the database.
+AI Assisted Tools
+AI assisted tools were used during development for debugging Flask and Git issues, understanding Flask routing and CRUD operations, troubleshooting template and database errors and learning best practices for SQL security and project structure. I used these tools to help understand concepts and fix errors, but tested and adjusted everything myself.
 
+Known Limitations
 
-
-## AI-Assisted Tools
-
-AI-assisted tools were used during development for:
-- Debugging Flask and Git issues
-- Understanding Flask routing and CRUD operations
-- Troubleshooting template and database errors
-- Learning best practices for SQL security and project structure
-
-All code was reviewed, tested, and modified during development.
+No user authentication system
+No password protection
+Minimal frontend styling
+Comments cannot currently be edited or deleted
+No search functionality
 
 
+Future Improvements
+If given more time, the following could be added:
 
-## Known Limitations
-
-- No user authentication system
-- No password protection
-- Minimal frontend styling
-- Comments cannot currently be edited or deleted
-- No search functionality
-
-
-
-## Future Improvements
-
-If given more time, the following improvements could be added:
-- User login and registration
-- Improved responsive design and styling
-- Search and category filtering
-- Flash messages for user feedback
-- Ability to edit and delete comments
-- Better error handling and validation
+User login and registration
+Improved responsive design and styling
+Search and category filtering
+Flash messages for user feedback
+Ability to edit and delete comments
+Better error handling and validation
