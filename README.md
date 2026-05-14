@@ -56,6 +56,7 @@ After running the application, open the following link in a browser:
 http://127.0.0.1:5000
 
 ## Project Structure
+```
 PersonalBloggingApplication/
 │
 ├── app.py
@@ -70,6 +71,7 @@ PersonalBloggingApplication/
 │   ├── create_post.html
 │   ├── edit_post.html
 │   └── post.html
+```
 
 ## Security
 
