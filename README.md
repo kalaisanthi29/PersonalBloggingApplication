@@ -1,51 +1,63 @@
 # Personal Blogging Application
 
-Project Description
+# Personal Blogging Application
+
+## Project Description
+
 This project is a simple blogging web application built using Flask, SQLite, HTML and CSS.
+
 The application allows users to:
 
-Create blog posts
-Read blog posts
-Update blog posts
-Delete blog posts
-Add comments to posts
+- Create blog posts
+- Read blog posts
+- Update blog posts
+- Delete blog posts
+- Add comments to posts
 
 The purpose of the project was to practice backend web development concepts such as Flask routing, CRUD operations, database integration, form handling and template rendering.
 
-Technologies Used
+## Technologies Used
 
-Python
-Flask
-SQLite
-HTML
-CSS
-Jinja Templates
-Git and GitHub
+- Python
+- Flask
+- SQLite
+- HTML
+- CSS
+- Jinja Templates
+- Git and GitHub
 
+## Setup and Installation
 
-Setup and Installation
+**1. Clone the Repository**
 
-Clone the Repository
-
+```bash
 git clone https://github.com/kalaisanthi29/PersonalBloggingApplication.git
+```
 
-Open the Project Folder
+**2. Open the Project Folder**
 
+```bash
 cd PersonalBloggingApplication
+```
 
-Install Flask
+**3. Install Flask**
 
+```bash
 pip install flask
+```
 
-Run the Application
+**4. Run the Application**
 
+```bash
 python app.py
+```
 
-Running the Application Locally
+## Running the Application Locally
+
 After running the application, open the following link in a browser:
 http://127.0.0.1:5000
 
-Project Structure
+## Project Structure
 PersonalBloggingApplication/
 │
 ├── app.py
@@ -61,32 +73,38 @@ PersonalBloggingApplication/
 │   ├── edit_post.html
 │   └── post.html
 
-Security
+## Security
+
 The application uses parameterised SQL queries with ? placeholders to help prevent SQL injection attacks.
+
 Example:
+
+```python
 conn.execute(
     "INSERT INTO posts (title, body) VALUES (?, ?)",
     (title, body)
 )
+```
 
-AI Assisted Tools
+## AI Assisted Tools
+
 AI assisted tools were used during development for debugging Flask and Git issues, understanding Flask routing and CRUD operations, troubleshooting template and database errors and learning best practices for SQL security and project structure. I used these tools to help understand concepts and fix errors, but tested and adjusted everything myself.
 
-Known Limitations
+## Known Limitations
 
-No user authentication system
-No password protection
-Minimal frontend styling
-Comments cannot currently be edited or deleted
-No search functionality
+- No user authentication system
+- No password protection
+- Minimal frontend styling
+- Comments cannot currently be edited or deleted
+- No search functionality
 
+## Future Improvements
 
-Future Improvements
 If given more time, the following could be added:
 
-User login and registration
-Improved responsive design and styling
-Search and category filtering
-Flash messages for user feedback
-Ability to edit and delete comments
-Better error handling and validation
+- User login and registration
+- Improved responsive design and styling
+- Search and category filtering
+- Flash messages for user feedback
+- Ability to edit and delete comments
+- Better error handling and validation
