@@ -1,7 +1,5 @@
 # Personal Blogging Application
 
-# Personal Blogging Application
-
 ## Project Description
 
 This project is a simple blogging web application built using Flask, SQLite, HTML and CSS.
